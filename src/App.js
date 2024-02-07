@@ -1,7 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { Container, Typography, Button } from "@mui/material";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Container, Typography, Button } from "@mui/material";
 import Courses from "./components/Courses";
 import PHYS227 from "./components/courses//PHYS227/PHYS227";
 
