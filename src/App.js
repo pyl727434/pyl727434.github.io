@@ -6,7 +6,7 @@ import PHYS227 from "./components/courses//PHYS227/PHYS227";
 
 function App() {
   return (
-    <Router>
+    <Router basename="pyl727434.github.io">
       <Container>
         <Typography variant="h4" gutterBottom>
           Hi! I'm Yinglei Peng.
