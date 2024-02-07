@@ -1,12 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Container, Typography, Button } from "@mui/material";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Courses from "./components/Courses";
 import PHYS227 from "./components/courses//PHYS227/PHYS227";
 
 function App() {
   return (
-    <Router basename="pyl727434.github.io">
+    <Router>
       <Container>
         <Typography variant="h4" gutterBottom>
           Hi! I'm Yinglei Peng.
