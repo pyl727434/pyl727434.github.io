@@ -35,4 +35,6 @@ function PHYS227() {
   );
 }
 
+// npm run deploy
+
 export default PHYS227;
