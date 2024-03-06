@@ -7,6 +7,8 @@ function PHYS227() {
   const ws2_sol = "courses/PHYS227/PHYS227_ws2_sol.pdf";
   const ws4 = "courses/PHYS227/PHYS227_ws4.pdf";
   const ws4_sol = "courses/PHYS227/PHYS227_ws4_sol.pdf";
+  const ws6 = "courses/PHYS227/PHYS227_ws6.pdf";
+  const ws6_sol = "courses/PHYS227/PHYS227_ws6_sol.pdf";
 
   return (
     <div>
@@ -29,6 +31,16 @@ function PHYS227() {
       <Typography>
         <Link href={`/${ws4_sol}`} target="_blank" rel="noopener noreferrer">
           {"ws4_sol"}
+        </Link>
+      </Typography>
+      <Typography>
+        <Link href={`/${ws6}`} target="_blank" rel="noopener noreferrer">
+          {"ws6"}
+        </Link>
+      </Typography>
+      <Typography>
+        <Link href={`/${ws6_sol}`} target="_blank" rel="noopener noreferrer">
+          {"ws6_sol"}
         </Link>
       </Typography>
     </div>
